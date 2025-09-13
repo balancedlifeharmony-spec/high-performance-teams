@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>The Unsexy Truth About High-Performing Teams</title>
+<meta name="description" content="A boiled-down, evidence-based playbook: Psychological Safety → Productive Conflict → Clear Commitment → Peer Accountability → Real Results." />
+<style>
+  :root{
+    --bg:#ffffff; --ink:#0f172a; --muted:#475569; --accent:#2563eb; --accent-2:#0ea5e9;
+    --card:#f8fafc; --ring:#e2e8f0;
+  }
+  html{scroll-behavior:smooth;}
+  body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);}
+  .wrap{max-width:960px;margin:auto;padding:16px;}
+  header{position:sticky;top:0;backdrop-filter:saturate(140%) blur(6px);background:rgba(255,255,255,.85);border-bottom:1px solid var(--ring);z-index:10}
+  .brand{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;}
+  .brand h1{font-size:18px;margin:0;font-weight:750;letter-spacing:.2px}
+  nav{border-top:1px solid var(--ring);overflow:auto;white-space:nowrap}
+  nav a{display:inline-block;padding:10px 12px;text-decoration:none;color:var(--muted)}
+  nav a:hover,nav a:focus{color:var(--accent)}
+  main{padding:18px 16px}
+  h2{font-size:26px;margin:22px 0 8px}
+  h3{font-size:18px;margin:18px 0 6px}
+  p,li{color:var(--ink)}
+  .card{background:var(--card);border:1px solid var(--ring);border-radius:12px;padding:14px 16px;margin:14px 0}
+  .tldr{border-left:4px solid var(--accent);padding-left:12px}
+  .grid{display:grid;gap:12px}
+  @media(min-width:720px){.grid{grid-template-columns:repeat(2,1fr)}}
+  .tag{display:inline-block;font-size:12px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#fff;padding:4px 8px;border-radius:999px}
+  .mini{font-size:13px;color:var(--muted)}
+  .btn-top{position:fixed;right:12px;bottom:12px;background:var(--accent);color:#fff;border:none;border-radius:999px;padding:10px 12px;cursor:pointer}
+  section{scroll-margin-top:82px}
+  details{border:1px solid var(--ring);border-radius:10px;background:#fff;padding:10px 12px}
+  details summary{cursor:pointer;font-weight:600}
+  footer{border-top:1px solid var(--ring);padding:20px 16px;margin-top:20px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header id="top">
+  <div class="brand wrap">
+    <h1>High-Performing Teams — The Short Truth</h1>
+    <span class="tag">PS → Conflict → Commit → Account → Results</span>
+  </div>
+  <nav class="wrap" aria-label="Section navigation">
+    <a href="#tldr">TL;DR</a>
+    <a href="#trust">Trust</a>
+    <a href="#conflict">Conflict</a>
+    <a href="#commitment">Commitment</a>
+    <a href="#accountability">Accountability</a>
+    <a href="#results">Results</a>
+    <a href="#cognition">Team Cognition</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#remote">Remote/Hybrid</a>
+    <a href="#playbook">10-Move Playbook</a>
+    <a href="#metrics">What to Measure</a>
+    <a href="#pledge">10% Hunger Pledge</a>
+  </nav>
+</header>
+
+<main class="wrap" role="main">
+  <section id="tldr" class="card tldr">
+    <h2>TL;DR</h2>
+    <p><strong>If your team isn’t winning, it’s missing habits</strong>—installed in this order:
+      <em>Psychological Safety → Productive Conflict → Clear Commitment → Peer Accountability → Real Results.</em>
+      Build the lower layer and the one above starts working. Skip a layer and everything wobbles.</p>
+  </section>
+
+  <section id="trust" class="card">
+    <h2>1) Trust = Psychological Safety</h2>
+    <p>Safety isn’t softness—it’s bandwidth. People speak up, report errors, and share ideas without fear.</p>
+    <ul>
+      <li><strong>Run now:</strong> 30-sec round: Learned • Mistake • Help needed.</li>
+      <li><strong>Leaders go first:</strong> “Here’s what I may be wrong about…”</li>
+      <li><strong>Debrief misses:</strong> Fix systems, not people.</li>
+    </ul>
+    <details><summary>Quick diagnostic</summary>
+      <p class="mini">5-item pulse (1–5). Track % of meetings where dissent is voiced.</p>
+    </details>
+  </section>
+
+  <section id="conflict" class="card">
+    <h2>2) Conflict: Heat that cooks, not burns</h2>
+    <ul>
+      <li><strong>Time-box debate:</strong> 10m options → 10m evidence/risks → 5m decision.</li>
+      <li><strong>Steel-man:</strong> State the best version of the other side.</li>
+      <li><strong>Label it:</strong> “This is <em>task</em> conflict—keep it on the whiteboard.”</li>
+    </ul>
+  </section>
+
+  <section id="commitment" class="card">
+    <h2>3) Commitment: Clarity beats consensus</h2>
+    <ul>
+      <li><strong>Close every decision with:</strong> What • Why • Owner • When • First milestone • How we’ll know.</li>
+      <li>Publish a one-page <strong>D-Note</strong> in 24h; each member states one implication for their lane.</li>
+    </ul>
+  </section>
+
+  <section id="accountability" class="card">
+    <h2>4) Accountability: Peer standards change behavior</h2>
+    <ul>
+      <li><strong>Definition of Done</strong> for recurring work + <strong>peer review before ship</strong>.</li>
+      <li><strong>RACI/DRI</strong> tags so ownership is never ambiguous.</li>
+      <li><strong>Weekly scorecard</strong>: inputs & outcomes by named owner—no “team” rows.</li>
+    </ul>
+    <p class="mini"><em>Peer script:</em> “We agreed on DoD v1.2—what’s missing, and what help do you need?”</p>
+  </section>
+
+  <section id="results" class="card">
+    <h2>5) Results: Make outcomes the default conversation</h2>
+    <ul>
+      <li>Pick <strong>3–5 controllables</strong> the team truly owns; review weekly.</li>
+      <li>Updates = <strong>Goal → Progress → Blocker → Next action</strong>.</li>
+      <li>After shipping: log <strong>one system change</strong> we made from what we learned.</li>
+    </ul>
+  </section>
+
+  <section id="cognition" class="card">
+    <h2>Team Cognition: SMM + TMS</h2>
+    <ul>
+      <li>Quarterly <strong>expertise map</strong> (Owner • Backup • Consulted).</li>
+      <li><strong>Handoff checklist</strong>: new owner, risks, first check-in, rollback plan.</li>
+      <li>One-page <strong>architecture narratives</strong> for major systems.</li>
+    </ul>
+  </section>
+
+  <section id="leadership" class="card">
+    <h2>Leadership Behaviors that Multiply Learning</h2>
+    <ul>
+      <li>Frame work as learning; model fallibility; invite & reward input.</li>
+      <li><strong>Cadence:</strong> Weekly scorecard + D-log • Biweekly retro • Monthly reflexivity (one system change).</li>
+    </ul>
+  </section>
+
+  <section id="remote" class="card">
+    <h2>Remote/Hybrid: Same pyramid, higher stakes</h2>
+    <ul>
+      <li>Write decisions down; record short summaries for complex calls.</li>
+      <li>Async for status, live time for debate. Over-communicate availability.</li>
+    </ul>
+  </section>
+
+  <section id="playbook" class="card">
+    <h2>10-Move 90-Day Playbook</h2>
+    <div class="grid">
+      <ol>
+        <li>Safety pulse + “learned/mistake/help” opener.</li>
+        <li>Time-boxed debate + steel-man.</li>
+        <li>Decision Closure Checklist on every decision.</li>
+        <li>Publish D-Notes within 24h.</li>
+        <li>RACI/DRI on all work.</li>
+      </ol>
+      <ol start="6">
+        <li>Definition of Done + peer reviews.</li>
+        <li>3–5 controllable outcomes on a public scorecard.</li>
+        <li>Progress narrative in all updates.</li>
+        <li>Expertise map + handoff checklist.</li>
+        <li>Monthly reflexivity: lock one system fix.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="metrics" class="card">
+    <h2>What to Measure (so you don’t fool yourself)</h2>
+    <ul>
+      <li><strong>Safety pulse</strong> (5 items) & <strong>dissent rate</strong>.</li>
+      <li><strong>Conflict mix</strong> per meeting (task ↑ / relationship ≈ 0).</li>
+      <li><strong>Decision clarity %</strong> (work tied to logged decisions).</li>
+      <li><strong>DoD & peer-review coverage %</strong>, on-time %.</li>
+      <li><strong>Outcome trends</strong> on your 3–5 controllables.</li>
+      <li><strong>Missed-handoff rate</strong> & cycle time.</li>
+    </ul>
+  </section>
+
+  <section id="pledge" class="card">
+    <h2>Our Impact Pledge: <span class="tag">10% to Feed the Hungry</span></h2>
+    <p>We donate 10% of proceeds from this project to vetted hunger-relief organizations (food banks, school meals, emergency relief, nutrition programs).</p>
+    <ul>
+      <li><strong>Transparency:</strong> Quarterly public note: revenue basis, donation amount, recipients, receipts.</li>
+      <li><strong>Join us:</strong> Bulk buy for managers, match our donation, or suggest a local partner at <a href="mailto:info@victoryhourmedia.com">info@victoryhourmedia.com</a>.</li>
+    </ul>
+  </section>
+
+  <button class="btn-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑ Top</button>
+</main>
+
+<footer class="wrap mini" role="contentinfo">
+  <p><strong>The Unsexy Truth About High-Performing Teams</strong> • © 2025 Victory Hour Enterprises Inc. • Built light for Canva AI. Tweak colors in <code>:root</code>.</p>
+</footer>
+</body>
+</html>
